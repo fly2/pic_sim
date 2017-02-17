@@ -1,6 +1,9 @@
 #得到汉明距离
 import numpy as np
 import re
+c=np.array([(1,5,3),(2,4,6)])
+c[c<np.mean(c)]=0
+c[c>0]=1
 a=np.array([(1,1,0),(1,0,0)])
 b=np.array([(1,0,1),(1,1,0)])
 print(np.sum((a-b)!=0))
