@@ -23,6 +23,10 @@ flipcode控制翻转效果。
 * filpcode<0,沿x，y轴翻转。
 
 
+cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)   
+颜色空间转换。img为图片，cv2.COLOR_**x**2**y**
+其中,**x**,**y** = RGB, BGR, GRAY, HSV, YCrCb, XYZ, Lab, Luv, HLS
+
 
 cv2.namedWindow(framename,flags)  
 创造一个窗口。  
